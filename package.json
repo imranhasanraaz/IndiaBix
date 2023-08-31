@@ -1,0 +1,18 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "description": "This is QUPS Internship project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Imran",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.0.0"
+  },
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.40.0",
+    "cypress-xpath": "^2.0.1"
+  }
+}
