@@ -9,10 +9,9 @@ describe('Testing Programming Module', () => {
             testdata = data;
         });
 
-        cy.visit("https://www.indiabix.com/");
-
     });
     it('Verify that user can clicked on C Programming from Programming Module', () => {
+        cy.visit("https://www.indiabix.com/");
         const programming = new Programming()
         programming.clickedOnCProgramming()
         cy.get(programming.getProgrammingItemHeader).contains(testdata.headingForCProgramming);

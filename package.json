@@ -8,11 +8,10 @@
   },
   "author": "Imran",
   "license": "ISC",
-  "dependencies": {
-    "cypress": "^13.0.0"
-  },
   "devDependencies": {
     "@shelex/cypress-allure-plugin": "^2.40.0",
+    "allure-commandline": "^2.24.0",
+    "cypress": "12.14.0",
     "cypress-xpath": "^2.0.1"
   }
 }

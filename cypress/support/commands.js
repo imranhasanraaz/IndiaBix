@@ -24,7 +24,7 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 /// <reference types = "Cypress" />
-import 'cypress-xpath';
-import '@shelex/cypress-allure-plugin';
+/// <reference types="@shelex/cypress-allure-plugin" />
+
 
 // Your other custom commands or configurations...
